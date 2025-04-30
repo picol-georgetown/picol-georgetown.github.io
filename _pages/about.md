@@ -11,7 +11,7 @@ redirect_from:
 
 ## Welcome to PICoL ( pronounced "pickle" 🥒 ) at Georgetown University 
 
- <img src="../images/cover_image.jpg" style="padding: 10px" alt="Georgetown Image"> 
+ <img src="../images/lab_photo.png" style="padding: 10px" alt="Georgetown Image"> 
 
 Our goal in PICoL is to understand the computational mechanisms that facilitate language learning and language processing in the human mind, and to use this knowledge to build robust and safe language technologies. To do so, we deploy a multidisciplinary toolkit including formal linguistic theories, experimental psycholinguistics, statistical modeling, and deep learning.
 

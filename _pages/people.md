@@ -97,3 +97,8 @@ Her research interests include computational psycholinguistics and cognitive mod
 [GitHub](https://github.com/Lanni-ni)
 
 ---
+
+<br><br><br><br>
+
+ <img src="../images/lab_people.png" style="padding: 10px; width: 400px; display: block; margin: auto; width: 50%;" alt="Georgetown Image"> 
+

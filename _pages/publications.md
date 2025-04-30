@@ -8,6 +8,9 @@ redirect_from:
   - /publications.html
 ---
 
+ <img src="../images/cover_image.jpg" style="padding: 10px" alt="Georgetown Image"> 
+
+
 ## 2025
 
 **Xiulin Yang**. 
