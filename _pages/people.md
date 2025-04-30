@@ -55,6 +55,17 @@ networks, LLMs, and semantics.
 
 ---
 
+<img src="../images/devika.jpg" style="height:170px; border-radius:50%; float:left; padding-right: 30px" alt="Devika Tiwari">
+
+**Devika Tiwari** is a second-year PhD student in Computational Linguistics and Cognitive Science.
+She is interested in how we can use computational tools to understand how language is processed in the mind and brain.
+She is also working on topics in neurolinguistics and figurative language processing.
+
+[GitHub](https://github.com/devika-tiwari) [Website](https://sites.google.com/georgetown.edu/devikatiwari/home?authuser=0)
+
+<br>
+
+---
 <img src="../images/Hyun.jpeg" style="height:160px; border-radius:50%; float:left; padding-right: 30px" alt="Hyun Min">
 
 **Hyun Min** is a first-year PhD student in the computational concentration from Busan, Korea.
