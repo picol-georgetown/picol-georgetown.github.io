@@ -1,0 +1,134 @@
+body {
+  margin: 0 auto;
+  width: 900px;
+  padding: 40px;
+  font-family: Caslon, sans-serif;
+  line-height: 1.3;
+  font-size: 18px;
+  color: #444444;
+}
+
+@font-face {
+  font-family: Caslon;
+  src: url(assets/fonts/ACaslonPro-Regular.otf);
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Caslon;
+  src: url(assets/fonts/ACaslonPro-Bold.otf);
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Caslon;
+  src: url(assets/fonts/ACaslonPro-Italic.otf);
+  font-weight: normal;
+  font-style: italic;
+}
+
+a:link, a:visited {
+  color: #0d592b; 
+  text-decoration: none;
+}
+
+a:hover {
+  color: #a83a32;
+}
+
+#navbar {
+  font-size: 20px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+hr {
+  border-top: 1px solid gray;
+}
+
+.update-bullet {
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 0px;
+}
+
+.updates-box {
+  background-color: #f4f4f4;
+  padding: 15px;
+  border-radius: 8px;
+  /* Make the box scrollable and cap the height */
+  max-height: 800px; 
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+/* Custom scrollbar styling for a cleaner look */
+.updates-box::-webkit-scrollbar {
+  width: 8px;
+}
+.updates-box::-webkit-scrollbar-thumb {
+  background: #cccccc; 
+  border-radius: 4px;
+}
+
+/* New wrapper to shrink posts and fix Bluesky cutoff */
+.embed-wrapper {
+  width: 100%;
+  max-width: 100%;
+  zoom: 0.85; /* Scales down the post size and layout space */
+}
+
+.embed-wrapper blockquote, 
+.embed-wrapper iframe {
+  max-width: 100% !important;
+  margin: 0 auto !important;
+}
+
+.tag {
+  display: inline-block;
+  padding: 0.1em 0.5em;
+  margin: 0em;
+  font-size: 0.7em;
+  font-weight: 300;
+  border-radius: 0.5em;
+  background-color: #f0f0f0;
+}
+
+.journal { border: 0px solid #1f3024; color: #1f3024;}
+.preprint { border: 0px solid #4a2c11; color:  #4a2c11;}
+.proceedings { border: 0px solid #a83a32; color: #a83a32;}
+.chapter { border: 0px solid #6b7a3a; color: #6b7a3a;}
+
+/* Classes for the People Page */
+.person-card {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 20px;
+  padding: 15px;
+  border-bottom: 1px solid #eaeaea;
+}
+
+.person-img {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 5px;
+  margin-right: 20px;
+  background-color: #eeeeee;
+}
+
+.person-info h3 {
+  margin: 0 0 5px 0;
+  font-size: 20px;
+}
+
+.person-info p {
+  margin: 5px 0;
+  font-size: 16px;
+}
