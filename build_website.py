@@ -57,7 +57,7 @@ def generate_index_page():
         <div class="updates-box">
     """
 
-    announcements_path = 'assets/data/annoucements.csv'
+    announcements_path = 'assets/data/announcements.csv'
     if os.path.exists(announcements_path):
         with open(announcements_path, 'r', encoding='utf-8-sig') as f:
             reader = csv.DictReader(f)
